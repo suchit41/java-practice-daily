@@ -5,6 +5,7 @@ import java.util.Arrays;
  */
 public class delete_element_in_Arry {
 
+//creating an main method
     public static void main(String[] args) {
         int [] originalArray = {1,2,3,4,5};
         int elementToremove = 3;
@@ -12,6 +13,7 @@ public class delete_element_in_Arry {
         System.out.println(Arrays.toString(answerArray));
 
     }
+    //created method for the remove the element in array.
 
     public static int[] removeElement(int[] array,int element)
     {
